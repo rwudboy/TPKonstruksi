@@ -1,5 +1,6 @@
 function submitText() {
     const inputText = document.getElementById("inputText").value;
-    document.getElementById("outputLabel").innerHTML = inputText;
+    const outputLabel = document.getElementById("outputLabel");
+    outputLabel.innerHTML = "Halo " + inputText;
   }
   
